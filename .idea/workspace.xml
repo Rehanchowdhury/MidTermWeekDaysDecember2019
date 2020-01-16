@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/ArraySort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +49,22 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArithmeticOperator">
+  <component name="RunManager" selected="Application.ArraySort$BubbleSortExample">
     <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArithmeticOperator" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySort$BubbleSortExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArraySort$BubbleSortExample" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
@@ -78,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySort$BubbleSortExample" />
         <item itemvalue="Application.ArithmeticOperator" />
         <item itemvalue="Application.CsvReader" />
       </list>
@@ -119,22 +133,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1218" height="179" key="GridCell.Tab.0.bottom" timestamp="1579144739020">
+    <state width="1218" height="179" key="GridCell.Tab.0.bottom" timestamp="1579145651222">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579144739020" />
-    <state width="1218" height="179" key="GridCell.Tab.0.center" timestamp="1579144739019">
+    <state width="1218" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579145651222" />
+    <state width="1218" height="179" key="GridCell.Tab.0.center" timestamp="1579145651221">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1579144739019" />
-    <state width="1218" height="179" key="GridCell.Tab.0.left" timestamp="1579144739019">
+    <state width="1218" height="179" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1579145651221" />
+    <state width="1218" height="179" key="GridCell.Tab.0.left" timestamp="1579145651220">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1579144739019" />
-    <state width="1218" height="179" key="GridCell.Tab.0.right" timestamp="1579144739020">
+    <state width="1218" height="179" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1579145651220" />
+    <state width="1218" height="179" key="GridCell.Tab.0.right" timestamp="1579145651221">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1579144739020" />
+    <state width="1218" height="179" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1579145651221" />
     <state x="128" y="23" key="SettingsEditor" timestamp="1579135390323">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
