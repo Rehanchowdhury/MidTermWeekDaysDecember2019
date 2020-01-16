@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/GradeSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/GradeSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemandsolutions/RandomNumberGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemandsolutions/RandomNumberGenerate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GradeSheet">
+  <component name="RunManager" selected="Application.RandomNumberGenerate">
     <configuration name="ArithmeticOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problemandsolutions.ArithmeticOperator" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -102,8 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomNumberGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemandsolutions.RandomNumberGenerate" />
+      <module name="MidTermWeekDaysDecember2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemandsolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomNumberGenerate" />
         <item itemvalue="Application.GradeSheet" />
         <item itemvalue="Application.ArraySort$BubbleSortExample" />
         <item itemvalue="Application.ArithmeticOperator" />
@@ -147,22 +161,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1218" height="179" key="GridCell.Tab.0.bottom" timestamp="1579148893571">
+    <state width="1218" height="179" key="GridCell.Tab.0.bottom" timestamp="1579151835298">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579148893571" />
-    <state width="1218" height="179" key="GridCell.Tab.0.center" timestamp="1579148893570">
+    <state width="1218" height="179" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579151835298" />
+    <state width="1218" height="179" key="GridCell.Tab.0.center" timestamp="1579151835297">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1579148893570" />
-    <state width="1218" height="179" key="GridCell.Tab.0.left" timestamp="1579148893569">
+    <state width="1218" height="179" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1579151835297" />
+    <state width="1218" height="179" key="GridCell.Tab.0.left" timestamp="1579151835297">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1579148893569" />
-    <state width="1218" height="179" key="GridCell.Tab.0.right" timestamp="1579148893570">
+    <state width="1218" height="179" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1579151835297" />
+    <state width="1218" height="179" key="GridCell.Tab.0.right" timestamp="1579151835297">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
-    <state width="1218" height="179" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1579148893570" />
+    <state width="1218" height="179" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1579151835297" />
+    <state width="1218" height="224" key="GridCell.Tab.1.bottom" timestamp="1579150902895">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state width="1218" height="224" key="GridCell.Tab.1.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579150902895" />
+    <state width="1218" height="224" key="GridCell.Tab.1.center" timestamp="1579150902894">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state width="1218" height="224" key="GridCell.Tab.1.center/0.23.1280.724@0.23.1280.724" timestamp="1579150902894" />
+    <state width="1218" height="224" key="GridCell.Tab.1.left" timestamp="1579150902894">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state width="1218" height="224" key="GridCell.Tab.1.left/0.23.1280.724@0.23.1280.724" timestamp="1579150902894" />
+    <state width="1218" height="224" key="GridCell.Tab.1.right" timestamp="1579150902895">
+      <screen x="0" y="23" width="1280" height="724" />
+    </state>
+    <state width="1218" height="224" key="GridCell.Tab.1.right/0.23.1280.724@0.23.1280.724" timestamp="1579150902895" />
     <state x="128" y="23" key="SettingsEditor" timestamp="1579135390323">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
@@ -175,5 +205,10 @@
       <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="315" y="71" width="670" height="676" key="search.everywhere.popup/0.23.1280.724@0.23.1280.724" timestamp="1579148392772" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MidTermWeekDaysDecember2019$RandomNumberGenerate.ic" NAME="RandomNumberGenerate Coverage Results" MODIFIED="1579150874780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>problemandsolutions.*</FILTER>
+    </SUITE>
   </component>
 </project>
