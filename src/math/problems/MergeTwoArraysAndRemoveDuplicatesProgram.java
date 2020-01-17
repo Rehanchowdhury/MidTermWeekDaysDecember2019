@@ -1,8 +1,5 @@
 package math.problems;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
-
 public class MergeTwoArraysAndRemoveDuplicatesProgram {
 
     // Merge Two Arrays Into Single Sorted Array Without Duplicates
@@ -11,13 +8,36 @@ public class MergeTwoArraysAndRemoveDuplicatesProgram {
     // output {1,3,4,5,6,7,8}
 
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
+
+        int[] arr1 = {1, 3, 4};
+        int n1 = arr1.length;
+        int[] arr2 = {4, 5, 6, 7, 8};
+        int n2 = arr2.length;
+        int[] merge = new int[n1 + n2];
+        int i = 0, j = 0, k = 0, x;
+        System.out.print("Array1: ");
+        for (x = 0; x < n1; x++)
+            System.out.print(arr1[x] + " ");
+        System.out.print("\nArray2: ");
+        for (x = 0; x < n2; x++)
+            System.out.print(arr2[x] + " ");
+        while (i < n1 && j < n2) {
+            if (arr1[i] < arr2[j])
+                merge[k++] = arr1[i++];
+            else
+                merge[k++] = arr2[j++];
+        }
+        while (i < n1)
+            merge[k++] = arr1[i++];
+        while (j < n2)
+            merge[k++] = arr2[j++];
+        System.out.print("\nArray after merging: ");
+        for (x = 0; x < n1 + n2; x++)
+            System.out.print(merge[x] + " ");
     }
-
-
-
-
-
 }
+
+
+
