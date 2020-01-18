@@ -7,9 +7,9 @@ public class SearchElementOfArray {
 
     public static void main(String[] args) {
 
-        int array[] = {10, 20, 25, 63, 96, 57};
+        int array[] = {14, 2, 9, 23, 70, 23,6,19,6,10};
         int size = array.length;
-        int value = 20;
+        int value = 9;
 
         for (int i=0 ;i< size-1; i++){
             if(array[i]==value){
