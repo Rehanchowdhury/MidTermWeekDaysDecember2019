@@ -1,5 +1,9 @@
 package datastructure;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class UseQueue {
 
 	public static void main(String[] args) {
@@ -9,6 +13,36 @@ public class UseQueue {
 		 * 
 		 */
 
+		Queue<String> queue = new LinkedList<>();
+
+		queue.add("Project");
+		queue.add("Class");
+		queue.add("Method");
+		queue.add("Veriable");
+		queue.add("Initialization");
+		queue.add("PrintStream");
+
+		System.out.println("Elements in queue are: " + queue);
+
+		queue.remove();
+		System.out.println("Elements in queue after using remove: " + queue);
+
+		System.out.println("The head element of queue is: "+ queue.peek());
+
+		queue.poll();
+		System.out.println("Elements in queue after using poll: " + queue);
+
+		System.out.print("\nThe Queue items using For Each: ");
+		for(String item: queue)
+			System.out.print(item + ", ");
+
+		System.out.print("\nThe Queue items using iterator: ");
+		Iterator<String> iterator = queue.iterator();
+		while (iterator.hasNext()) {
+			System.out.print(iterator.next() + ", ");
+		}
 	}
 
 }
+
+
