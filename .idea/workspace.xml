@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bilkis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579131214053" />
@@ -215,10 +218,11 @@
       <screen x="0" y="23" width="1280" height="724" />
     </state>
     <state x="318" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.724@0.23.1280.724" timestamp="1579161010830" />
-    <state x="315" y="71" width="670" height="676" key="search.everywhere.popup" timestamp="1579148392772">
-      <screen x="0" y="23" width="1280" height="724" />
+    <state x="413" y="86" width="880" height="882" key="search.everywhere.popup" timestamp="1579416847375">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
     <state x="315" y="71" width="670" height="676" key="search.everywhere.popup/0.23.1280.724@0.23.1280.724" timestamp="1579148392772" />
+    <state x="413" y="86" width="880" height="882" key="search.everywhere.popup/0.23.1680.944@0.23.1680.944" timestamp="1579416847375" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MidTermWeekDaysDecember2019$RandomNumberGenerate.ic" NAME="RandomNumberGenerate Coverage Results" MODIFIED="1579150874780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

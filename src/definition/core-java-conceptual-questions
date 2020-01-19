@@ -3,60 +3,257 @@ Please answer the below core-java Questions:
 What is programing language?
 A.
 
-
+A programming language is a set of commands, instructions, and other syntax use to create a software program.
 
 
 What jdk contains or composed of and define each components?
 A.
 
+The Java Developer's Kit contains a variety of tools and Java development information. Following is a list of the main components of the JDK:
+
+   The Runtime Interpreter
+   The Compiler
+   The Applet Viewer
+   The Debugger
+   The Class File Disassembler
+   The Header and Stub File Generator
+   The Documentation Generator
+   Applet Demos
+   API Source Code
 
 
 
 
 What is IDE?
 A.
-
+ Intigrated Devolopment Envoirnment.
 
 
 What are the IDEs available in the market to support java?
-A.
+A.Famous IDEs in the market to suport Java-
+ Eclipse.
+ NetBeans.
+ BlueJ.
+ IntelliJ .
+ jEdit.
+ DrJava.
+ Android Studio.
+ JCreator.
 
 
 
 Explain the entire java life cycle.
+ The life cycle of the thread in java is controlled by JVM. The java thread states are as follows:
+
+ New
+ Runnable
+ Running
+ Non-Runnable (Blocked)
+ Terminated
+
+
+
 what is class?
+lass is blue print of object .
+
 What is object?
+Object is a instance of class.
+
 What is the entry point of an application?
+The main method is the entry point of a Java application
+
 Why main is static?
+This is neccesary because main() is called by the JVM before any objects are made. Since it is static it can be directly invoked via the class
+
+
 Which class is the superclass of all classes?
+java.lang.Object is a super class of any class by default. The root class of the Java class hierarchy.
+All non-primitive types (including arrays) inherit either directly or indirectly from this class.
+Object is the super class of all other classes we use, including the ones we implemented.
+
+
 What is difference between path and classpath variables?
+
+
+A(1)Path is an environment variable which is used by the operating system to find the executables.
+A(2)Path is nothing but setting up an environment for operating system.
+Classpath is an environment variable which is used by the Java compiler to find the path, of classes.ie in J2EE we give the path of jar files.
+
 What is the difference between an Interface and Abstract class?
+ Main difference is methods of a Java interface are implicitly abstract and cannot have implementations.
+ A Java abstract class can have instance methods that implements a default behavior.
+ Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
+
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+ There are two ways you can achieve this.
+  1) Either you extend / implement the Abstract class / interface in a new class, create the object of this new class and then use this object as per your need.
+  2) The Compiler allows you to create anonymous objects of the interfaces in your code
+
+
 what is Access Specifier?
+ Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members.
+ In Java, methods and data members of a class/interface can have one of the following four access specifiers. The access specifiers are listed according to their restrictiveness order.
+ 1) private
+ 2) default (when no access specifier is specified)
+ 3) protected
+ 4) public
+
+
+
 What is OOP ? Define each feature of java OOP.
+
+ OOP concepts in Java are the main ideas behind Java’s Object Oriented Programming.
+ They are an abstraction, encapsulation, inheritance, and polymorphism.
+
+ Abstraction. Abstraction means using simple things to represent complexity. We all know how to turn the TV on, but we don’t need to know how it works in order to enjoy it.
+ In Java, abstraction means simple things like objects, classes, and variables represent more complex underlying code and data.
+ This is important because it lets avoid repeating the same work multiple times.
+
+
+ Encapsulation. This is the practice of keeping fields within a class private, then providing access to them via public methods.
+ It’s a protective barrier that keeps the data and code safe within the class itself.
+ This way, we can re-use objects like code components or variables without allowing open access to the data system-wide.
+
+ Inheritance. This is a special feature of Object Oriented Programming in Java.
+ It lets programmers create new classes that share some of the attributes of existing classes.
+ This lets us build on previous work without reinventing the wheel.
+
+
+ Polymorphism. This Java OOP concept lets programmers use the same word to mean different things in different contexts.
+ One form of polymorphism in Java is method overloading. That’s when different meanings are implied by the code itself. The other form is method overriding.
+ That’s when the different meanings are implied by the values of the supplied variables. See more on this below.
+
+
 What is Java Package and which package is imported by default?
+ java.lang package is imported by default, no need to explicitly import it.
+ Classes in the java.lang package do not need to be imported (the compiler acts like they are always imported)
+
+
 What is API? Name list of API that you have used so far.
+  API stands for Application Programming Interface.
+
+  Array
+  ArrayBlockingQueue
+  ArrayDeque
+  ArrayIndexOutOfBoundsException
+  ArrayList
+  Arrays
+  ArrayStoreException
+  ArrayType
+  Scanner
+  map
+  HashMap
+  HTML
+  HTML.Attribute
+  HTML.Tag
+  HTML.UnknownTag
+  HTMLDocument
+  ParseConversionEventImpl
+  ParseException
+  ParsePosition
+  Parser
+  ParserAdapter etc.....
+
+
 Does java support multiple inheritance, explain why or why not?
+ No java doesn't support multiple inheritance directly because it leads to overiding of methods when both extended class have a same method name.
+
+
+
 What is method overloading and when it happens?
+ Method Overloading is a feature that allows a class to have more than one method having the same name, if their argument lists are different.
+ It is similar to constructor overloading in Java, that allows a class to have more than one constructor having different argument lists.
+
+
+
 Explain exceptions in java and how to handle it.
+ An exception object is an instance of an exception class. It gets created and handed to the Java runtime when an exceptional event occurred that disrupted the normal flow of the application.
+ This is called “to throw an exception” because in Java you use the keyword “throw” to hand the exception to the runtime.
+
+
+
 What is static keyword in java? How it has been used in variables and methods ?
+  If you apply static keyword with any method, it is known as static method. A static method belongs to the class rather than the object of a class.
+  A static method can be invoked without the need for creating an instance of a class. A static method can access static data member and can change the value of it.
+
+
 What is final and how it has been used variables and methods?
+  final keyword in java. final keyword is used in different contexts. First of all, final is a non-access modifier applicable only to a variable, a method or a class.Following are different contexts where final is used.
+  When a variable is declared with final keyword, its value can't be modified, essentially, a constant.
+
+
 What is final, finally and finalize?
+ Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+ Finally is used to place important code, it will be executed whether exception is handled or not.
+ Finalize is used to perform clean up processing just before object is garbage collected. 2) Final is a keyword.
+
+
 What is a constructor ?
+ A constructor in Java is a block of code similar to a method that's called when an instance of an object is created.
+
+
 Can we have multiple constructors in a class?
+  You can define as many constructors as you need.
+  When a Java class contains multiple constructors, we say that the constructor is overloaded (comes in multiple versions)
+
+
 If we don't have a constructor declared, what is called during the object creation?
+  If you don't specify a constructor, a default constructor will be generated by the compiler.
+
+
 What is "this" keyword in java ?
+  Keyword ( This ) is a reference variable in Java that refers to the current object. ... It can be used to refer instance variable of current class.
+  It can be used to invoke or initiate current class constructor. It can be passed as an argument in the method call.
+
+
 What is "super" keyword in java? How many possible way can you use?
+ ( super) is a keyword. It is used inside a sub-class method definition to call a method defined in the super class.
+  Private methods of the super-class cannot be called.
+  Only public and protected methods can be called by the super keyword. It is also used by class constructors to invoke constructors of its parent class.
+
+
 What is JVM stand for ?
+  java vertual machine.
+
 Is JVM platform independent?
+ Yes.
+
 What version of java are you using?
+  java version "1.8.0_191"
+  Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
+  Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
+
+
+
 What is JAR stand for ?
+  Java archive file.
+
 What is the difference between JDK and JVM?
+  JVM is Java Virtual Machine, the JVM actually runs Java bytecode. JDK is Java Developer Kit, the JDK is what you need to compile Java source code.
+
 What is the difference between JVM and JRE?
+ JRE is Java Runtime Environment, is what you need to run a Java program and contains a JVM, among other things.
+ JVM (Java Virtual Machine) is an abstract machine.
+
+
 What is compile time and run time?
+    This compilation process is referred to as compile time.
+    A compiled program can be opened and run by a user. When an application is running, it is called runtime.
+
+
 What is heap?
+ Heap is a memory region allotted to every program.
+
 How java manage it's memory?
+  The JVM loads the code, verifies the code, executes the code, manages memory (this includes allocating memory from the Operating System (OS),
+  managing Java allocation including heap compaction and removal of garbage objects) and finally provides the runtime environment.
+
+
+
 What is the difference between String, StringBuffer and StringBuilder?
+
+
 What is Singleton class?
 What is Serialization and Deserialization?
 when to use transient variable in java?
