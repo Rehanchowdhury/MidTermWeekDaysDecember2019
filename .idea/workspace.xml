@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bilkis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/data-structure-questions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +57,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseQueue">
+  <component name="RunManager" selected="Application.DataReader">
     <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -66,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.MakePyramid" />
+    <configuration name="DataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.DataReader" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
+    <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="math.problems.MakePyramid" />
       <module name="MidTermWeekDaysDecember2019" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.MakePyramid" />
         <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.Pattern" />
       </list>
     </recent_temporary>
   </component>
@@ -164,30 +169,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579402394916">
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom" timestamp="1579497943441">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
     <state width="1238" height="138" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579310826456" />
     <state width="1218" height="114" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1579331219036" />
-    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1579402394916" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579402394915">
+    <state width="1638" height="251" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1579497943441" />
+    <state width="1638" height="251" key="GridCell.Tab.0.center" timestamp="1579497943441">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
     <state width="1238" height="138" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579310826455" />
     <state width="1218" height="114" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1579331219036" />
-    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1579402394915" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579402394915">
+    <state width="1638" height="251" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1579497943441" />
+    <state width="1638" height="251" key="GridCell.Tab.0.left" timestamp="1579497943440">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
     <state width="1238" height="138" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579310826454" />
     <state width="1218" height="114" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1579331219035" />
-    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1579402394915" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579402394916">
+    <state width="1638" height="251" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1579497943440" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right" timestamp="1579497943441">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
     <state width="1238" height="138" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579310826456" />
     <state width="1218" height="114" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1579331219036" />
-    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1579402394916" />
+    <state width="1638" height="251" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1579497943441" />
     <state width="1218" height="224" key="GridCell.Tab.1.bottom" timestamp="1579152086545">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
@@ -209,11 +214,11 @@
     </state>
     <state x="128" y="23" key="SettingsEditor/0.23.1280.724@0.23.1280.724" timestamp="1579135390323" />
     <state x="168" y="23" key="SettingsEditor/0.23.1680.941@0.23.1680.941" timestamp="1579401731325" />
-    <state x="386" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1579402421579">
+    <state x="386" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1579507916382">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
     <state x="294" y="219" key="com.intellij.ide.util.TipDialog/0.23.1280.724@0.23.1280.724" timestamp="1579321210702" />
-    <state x="386" y="278" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1579402421579" />
+    <state x="386" y="278" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1579507916382" />
     <state x="318" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579161010830">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
