@@ -25,6 +25,7 @@ public class ConnectToSqlDB {
         InputStream ism = new FileInputStream("src/secret.properties");
         prop.load(ism);
         ism.close();
+
         return prop;
     }
 

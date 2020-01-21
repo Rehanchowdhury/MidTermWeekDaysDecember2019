@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/design/AbstractEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MidTermWeekDaysDecember2019/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.41-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-6.0.6-bin.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +53,7 @@
       <recent name="G:\SOFTWARE ENGINEERING\PROJECTS\IdeaProjects\PNT\MidTermWeekDaysDecember2019\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataReader">
+  <component name="RunManager" selected="Application.ConnectToSqlDB">
     <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
       <module name="MidTermWeekDaysDecember2019" />
@@ -125,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="Application.DataReader" />
         <item itemvalue="Application.UseQueue" />
         <item itemvalue="Application.MakePyramid" />
-        <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="Application.PrimeNumber" />
       </list>
     </recent_temporary>
@@ -214,11 +210,11 @@
     </state>
     <state x="128" y="23" key="SettingsEditor/0.23.1280.724@0.23.1280.724" timestamp="1579135390323" />
     <state x="168" y="23" key="SettingsEditor/0.23.1680.941@0.23.1680.941" timestamp="1579401731325" />
-    <state x="386" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1579507916382">
+    <state x="386" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1579643555127">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
     <state x="294" y="219" key="com.intellij.ide.util.TipDialog/0.23.1280.724@0.23.1280.724" timestamp="1579321210702" />
-    <state x="386" y="278" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1579507916382" />
+    <state x="386" y="278" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1579643555127" />
     <state x="318" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579161010830">
       <screen x="0" y="23" width="1280" height="724" />
     </state>
